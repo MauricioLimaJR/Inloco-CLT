@@ -1,0 +1,28 @@
+{
+  "name": "game-config",
+  "version": "0.2.2",
+  "description": "Codes to parse to json struct Quake 3 logs files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioLimaJR/Inloco-CLLLT.git"
+  },
+  "author": "Mauricio Junior <jmauriciolm38@gmail.com> (https://github.com/MauricioLimaJR)",
+  "license": "MIT",
+  "bin": {
+    "game-config": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs-store": "^0.3.1",
+    "node-storage": "0.0.7"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "fs-store": "^0.3.1",
+    "node-storage": "0.0.7"
+  }
+}

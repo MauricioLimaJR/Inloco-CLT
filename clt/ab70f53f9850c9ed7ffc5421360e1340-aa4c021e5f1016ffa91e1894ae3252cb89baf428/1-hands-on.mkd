@@ -1,0 +1,113 @@
+# Quake log parser
+
+## Task 2: Building the reports system
+
+The system should cover **all the previous** use cases.
+
+### Additional information
+
+The log contains all information about multiple games, including:
+
+- When the game starts
+- When the game ends
+- When an user kills another
+- When an user gets killed
+- When an user dies by himself
+
+The parser should be able to read a file, group its results and output information about game kills.
+
+For example, the use **case 1** would output the following format:
+
+    game_1: {
+	    total_kills: 45,
+	    players: ["Dono da bola", "Isgalamido", "Zeh"]
+	    kills: {
+	      "Dono da bola": 5,
+	      "Isgalamido": 18,
+	      "Zeh": 20
+	    }
+	  }
+
+### Game rules
+
+The game deaths are computed according the following rules:
+
+1. When `<world>` kills a player, the player looses 1 kill
+2. `<world>` isn't a player and should not appear in the players list (`players` and `kills`)
+3. `total_kills` computes all kills, including the ones caused by `<world>`
+
+
+#### The log format
+
+  	21:42 Kill: 1022 2 22: <world> killed Isgalamido by MOD_TRIGGER_HURT
+
+  "Isgalamido" died because he was hurt and fell of a cliff. 
+
+  	2:22 Kill: 3 2 10: Isgalamido killed Dono da Bola by MOD_RAILGUN
+
+ "Isgalamido" killed the player "Dono da Bola" with the gun Railgun
+
+
+Death causes (from [source code](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h))
+
+	// means of death
+	typedef enum {
+		MOD_UNKNOWN,
+		MOD_SHOTGUN,
+		MOD_GAUNTLET,
+		MOD_MACHINEGUN,
+		MOD_GRENADE,
+		MOD_GRENADE_SPLASH,
+		MOD_ROCKET,
+		MOD_ROCKET_SPLASH,
+		MOD_PLASMA,
+		MOD_PLASMA_SPLASH,
+		MOD_RAILGUN,
+		MOD_LIGHTNING,
+		MOD_BFG,
+		MOD_BFG_SPLASH,
+		MOD_WATER,
+		MOD_SLIME,
+		MOD_LAVA,
+		MOD_CRUSH,
+		MOD_TELEFRAG,
+		MOD_FALLING,
+		MOD_SUICIDE,
+		MOD_TARGET_LASER,
+		MOD_TRIGGER_HURT,
+	#ifdef MISSIONPACK
+		MOD_NAIL,
+		MOD_CHAINGUN,
+		MOD_PROXIMITY_MINE,
+		MOD_KAMIKAZE,
+		MOD_JUICED,
+	#endif
+		MOD_GRAPPLE
+	} meansOfDeath_t;
+
+
+## Requirements
+
+1. You should use Java, Ruby, JavaScript or Golang to implement the system
+2. You should write tests
+3. You should zip your entire repository and email us
+
+HAVE FUN :)
+
+### General guidelines to assess the tests
+
+- The final application provides a README file with instructions on how to run it? And how to run the tests?
+- The solution works as it should be?
+- All tasks were delivered? The applicant made something beyond the expected?
+- Is the code easy to read?
+- The code uses the common conventions of the used language?
+- Did the applicant comprehended the problem as a whole?
+- Did he structure/model the solution accordingly?
+- The structure/architecture of the final application makes sense?
+- The right tools for the solution were used? Or the applicant used a fork to have soup?
+- Do you feel that the user was committed to deliver something really good?
+- If you were asked to implement more features on the delivered application, would you rather keep the code or forget it and start the whole thing from scratch?
+- The tests really describe the solution?
+- Does he or she care about literate tests?
+- Try to identify if the applicant did use of TDD/BDD.
+- Look the repository log and check if the commits are tiny, with a well described purpose.

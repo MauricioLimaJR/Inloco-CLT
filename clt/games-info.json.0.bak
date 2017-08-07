@@ -1,0 +1,197 @@
+{
+  "games": [
+    {
+      "players": [
+        {
+          "id": 2,
+          "name": "Isgalamido",
+          "kill_amount": -7
+        },
+        {
+          "id": 3,
+          "name": "Mocinha",
+          "kill_amount": 0
+        }
+      ],
+      "deaths": [
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": "Isgalamido",
+          "value": [
+            "Dono da Bola",
+            7
+          ]
+        },
+        {
+          "key": "Isgalamido",
+          "value": [
+            "Isgalamido",
+            7
+          ]
+        },
+        {
+          "key": "Isgalamido",
+          "value": [
+            "Isgalamido",
+            7
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            19
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        }
+      ],
+      "total_kills": 11,
+      "gStart": "20:37",
+      "gEnd": "28:48"
+    },
+    {
+      "players": [
+        {
+          "id": 2,
+          "name": "Isgalamido",
+          "kill_amount": -7
+        },
+        {
+          "id": 3,
+          "name": "Mocinha",
+          "kill_amount": 0
+        }
+      ],
+      "deaths": [
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": "Isgalamido",
+          "value": [
+            "Dono da Bola",
+            7
+          ]
+        },
+        {
+          "key": "Isgalamido",
+          "value": [
+            "Isgalamido",
+            7
+          ]
+        },
+        {
+          "key": "Isgalamido",
+          "value": [
+            "Isgalamido",
+            7
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            19
+          ]
+        },
+        {
+          "key": 1022,
+          "value": [
+            "Isgalamido",
+            22
+          ]
+        }
+      ],
+      "total_kills": 11,
+      "gStart": "19:55",
+      "gEnd": "20:47"
+    }
+  ],
+  "num": 110
+}

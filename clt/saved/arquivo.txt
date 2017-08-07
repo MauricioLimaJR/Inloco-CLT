@@ -1,0 +1,1 @@
+[{"id":2,"name":"Isgalamido","kill_amount":6},{"id":3,"name":"Mocinha","kill_amount":0}]
